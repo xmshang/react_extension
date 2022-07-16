@@ -37,6 +37,7 @@ class B extends Component {
     // 声明接收context
     static contextType = MyContext
     render() {
+        console.log(this.context)
         return (
             <div className='grand'>
                 <h3>我是C组件</h3>
